@@ -1,0 +1,4 @@
+numpy
+pandas
+SimpleITK
+surface-distance==0.1
