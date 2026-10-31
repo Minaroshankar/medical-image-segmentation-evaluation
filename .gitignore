@@ -1,0 +1,32 @@
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+evaluation_test_env/
+
+# Medical images and segmentation masks
+*.nii
+*.nii.gz
+*.mha
+*.mhd
+*.nrrd
+*.dcm
+
+# Evaluation results
+per_case_metrics.csv
+summary_metrics.csv
+evaluation_config.json
+test33_batch_inputs/
+test33_batch_results/
+
+# Local and temporary files
+*.log
+*.backup*
+.DS_Store
+Thumbs.db
